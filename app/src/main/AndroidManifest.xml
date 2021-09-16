@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_nang_cao_ps16752_hoangcongnhutvy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Android_Nang_Cao_Ps16752_HoangCongNhutVy">
+        <activity android:name=".Lab1.Lab1_Bai4">
+
+        </activity>
+        <activity android:name=".Lab1.Lab1_Bai3" />
+        <activity android:name=".Lab1.Lab1_Bai2" />
+        <activity android:name=".Lab1.Lab1_Bai1" />
+        <activity android:name=".Lab1.Main_Lab1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".Lab1.MyService"
+            android:enabled="true" />
+        <service
+            android:name=".Lab1.Lab2Service"
+            android:enabled="true" />
+        <service
+            android:name=".Lab1.Lab3IService"
+            android:enabled="true" />
+    </application>
+
+</manifest>
